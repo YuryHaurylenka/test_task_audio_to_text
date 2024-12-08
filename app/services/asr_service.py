@@ -5,7 +5,7 @@ from typing import Optional
 from pydub import AudioSegment
 from vosk import KaldiRecognizer, Model
 
-from app.core.config import settings
+from core.config import settings
 
 try:
     model = Model(settings.VOSK_MODEL_PATH)

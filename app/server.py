@@ -2,8 +2,8 @@ import json
 import os
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-from app.core.config import settings
-from app.services.asr_service import convert_mp3_to_wav, recognize_audio
+from core.config import settings
+from services.asr_service import convert_mp3_to_wav, recognize_audio
 
 if not os.path.exists(settings.UPLOAD_DIR):
     os.makedirs(settings.UPLOAD_DIR)
