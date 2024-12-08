@@ -63,6 +63,7 @@ The application uses a configuration file (`config.py`) for managing paths and d
 
 1. **Start the server**:
    ```bash
+   cd app
    python server.py
    ```
    The server runs on `http://localhost:8080` by default.
